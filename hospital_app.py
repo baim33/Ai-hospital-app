@@ -63,5 +63,5 @@ st.markdown("""
         Smart Hospital Patient Navigator
     </div>
 </div>
-""", unsafe_allow_html=true)
+""", unsafe_allow_html=True)
 
