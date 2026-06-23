@@ -4,13 +4,13 @@ import numpy as np
 import pickle
 import os
 
-st.set_page_config(page_title="Smart Hospital patient Navigator", page_icon="🏥"
-,layout="wide")
+st.set_page_config(page_title="Smart Hospital Patient Navigator", page_icon="🏥", layout="wide")
 
 @st.cache_resource
 def load_model():
     with open('hospital_model.pkl', 'rb') as f:
         return pickle.load(f)
+
 bundle        = load_model()
 model         = bundle['model']
 scaler        = bundle['scaler']
