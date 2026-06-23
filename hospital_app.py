@@ -12,7 +12,7 @@ st.markdown("""
 
 html, body, [class*="css"] { font-family: 'Inter', sans-serif;}
 [data-testid="stAppViewContainer"] {
-background-color: #eeeee4;
+background-color: #79fc79;
 }
 #MainMenu { visibility: hidden; }
 header[data-testid="stHeader"] { display: none; }
