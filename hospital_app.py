@@ -66,7 +66,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.form("triange_form"):
- 15:35
+ 
 st.markdown("""
     <div style="background:#f0f9ff; border:1px solid #bae6fd;">
         <div style="display:flex; align-items:center;">
