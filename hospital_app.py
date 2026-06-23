@@ -65,3 +65,10 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+with st.form("triange_form"):
+    st.markdown("""
+    <div style="background:f0f9ff; broder:1px solid #bae6fd;">
+        <div style="display:flex; align-item:center;">
+        <span>1</span>
+        </div>
+    """, unsafe_allow_html=True)
