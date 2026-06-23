@@ -66,9 +66,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 with st.form("triange_form"):
-    st.markdown("""
-    <div style="background:f0f9ff; broder:1px solid #bae6fd;">
-        <div style="display:flex; align-item:center;">
-        <span>1</span>
+ 15:35
+st.markdown("""
+    <div style="background:#f0f9ff; border:1px solid #bae6fd;">
+        <div style="display:flex; align-items:center;">
+            <span style="color: #1e3a8a;">1</span>
+            <span style="color: #1e3a8a;">What are your main symptoms?</span>
         </div>
+    </div>
     """, unsafe_allow_html=True)
