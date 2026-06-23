@@ -10,7 +10,10 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-html, body, [class*="css"] { font-family: 'Inter', sans-serif;backround-colour: '#eeeee4';}
+html, body, [class*="css"] { font-family: 'Inter', sans-serif;}
+[data-testid="stAppViewContainer"] {
+background-color: #f8fafc;
+}
 #MainMenu { visibility: hidden; }
 header[data-testid="stHeader"] { display: none; }
 .stDeployButton { display: none; }
